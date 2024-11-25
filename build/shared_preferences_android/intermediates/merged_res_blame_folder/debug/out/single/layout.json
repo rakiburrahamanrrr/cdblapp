@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/custom_dialog.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/notification_action.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/cdblapp/build/shared_preferences_android/intermediates/merged_res/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    }
+]

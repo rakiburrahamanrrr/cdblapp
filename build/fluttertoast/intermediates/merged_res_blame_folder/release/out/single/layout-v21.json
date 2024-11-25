@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/fluttertoast/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/fluttertoast/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/fluttertoast/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/fluttertoast/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1d5c4fb92a8fd56e37386facef5341ac/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

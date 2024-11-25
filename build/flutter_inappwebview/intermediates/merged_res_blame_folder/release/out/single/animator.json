@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_enter.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_exit.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_enter.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_exit.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/30e7f57102ec7b3021c65aeea86c933d/transformed/fragment-1.3.6/res/animator/fragment_fade_enter.xml"
+    }
+]
