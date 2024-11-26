@@ -27,14 +27,13 @@ class _FAQState extends State<FAQ> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/faqapp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/faqapp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

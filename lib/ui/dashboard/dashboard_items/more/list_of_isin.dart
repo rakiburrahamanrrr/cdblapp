@@ -27,14 +27,14 @@ class _IsinListsState extends State<IsinLists> {
         leading: BackButton(color: Colors.black),
       ),
       body:  Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/isin.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/isin.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

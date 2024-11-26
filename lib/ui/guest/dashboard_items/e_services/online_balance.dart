@@ -27,14 +27,15 @@ class _OnlineBalanceState extends State<OnlineBalance> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://www.cdbl.com.bd/osbiapp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        
+
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://www.cdbl.com.bd/osbiapp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

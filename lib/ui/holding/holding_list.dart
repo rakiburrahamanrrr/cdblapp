@@ -1,14 +1,15 @@
 import 'dart:convert';
 import 'package:cdbl/config/contants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../api.dart';
 import '../../loading_animation.dart';
 import 'package:http/http.dart' as http;
 
-class BalanceEnquiryScreen extends HookWidget {
+class BalanceEnquiryScreen extends StatelessWidget {
+  BalanceEnquiryScreen({Key key}) : super(key: key);
+  
   Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
   Future<List<dynamic>> BalanceEnquiry;
   Future<Map> Value;

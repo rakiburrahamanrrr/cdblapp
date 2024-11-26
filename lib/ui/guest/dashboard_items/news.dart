@@ -28,14 +28,13 @@ class _NewsState extends State<News> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/newsapp.php?all',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/newsapp.php?all'),
+            ),
         ),
         Visibility(
           visible: isLoading,

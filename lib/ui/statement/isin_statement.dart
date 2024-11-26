@@ -1,12 +1,11 @@
 import 'package:cdbl/models/isin_name.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../api.dart';
 import '../../loading_animation.dart';
 
 // ignore: must_be_immutable
-class IsinStatementScreen extends HookWidget {
+class IsinStatementScreen extends StatelessWidget {
   List<dynamic> Isin;
 
   @override

@@ -26,25 +26,22 @@ class _ContactUsState extends State<ContactUs> {
         ),
         leading: BackButton(color: Colors.black),
       ),
-      body: Stack(
-          children: [
-            WebView(
-              javascriptMode: JavascriptMode.unrestricted,
-              initialUrl: 'https://cdbl.com.bd/contactapp.php',
-              onPageFinished: (finish) {
-                setState(() {
-                  isLoading = false;
-                });
-              },
+      body: Stack(children: [
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/contactapp.php'),
             ),
-            Visibility(
-              visible: isLoading,
-              child: const Center(
-                child: loadingAnimation(),
-              ),
-            )
-          ]
-      ),
+        ),
+        Visibility(
+          visible: isLoading,
+          child: const Center(
+            child: loadingAnimation(),
+          ),
+        )
+      ]),
     );
   }
 }

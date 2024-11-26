@@ -26,15 +26,14 @@ class _ListOfDPsState extends State<ListOfDPs> {
         ),
         leading: BackButton(color: Colors.black),
       ),
-      body:  Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/dp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+      body: Stack(children: [
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/dp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

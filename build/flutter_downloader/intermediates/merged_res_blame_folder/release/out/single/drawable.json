@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_downloader/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/c5c9b5b61ad943e77806c947d598977c/transformed/core-1.9.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_downloader/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/c5c9b5b61ad943e77806c947d598977c/transformed/core-1.9.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_downloader/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/c5c9b5b61ad943e77806c947d598977c/transformed/core-1.9.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_downloader/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/c5c9b5b61ad943e77806c947d598977c/transformed/core-1.9.0/res/drawable/notification_tile_bg.xml"
+    }
+]

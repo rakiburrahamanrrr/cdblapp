@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_default.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_default.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/color-v23/abc_tint_spinner.xml"
     }
 ]

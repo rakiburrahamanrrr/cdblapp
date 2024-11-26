@@ -4,10 +4,10 @@
     minSdkVersion="21"
     targetSdkVersion="34"
     shrinking="true"
-    mergedManifest="/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/Users/mac/Desktop/AppStore/cdbl/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.0.0:/Users/mac/fvm/versions/3.0.0/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/Volumes/ssd/git/cdbl/cdblapp/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.0.0:/Users/app/fvm/versions/3.0.0/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -42,10 +42,10 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/javac/release/classes:/Users/mac/Desktop/AppStore/cdbl/build/app/tmp/kotlin-classes/release:/Users/mac/Desktop/AppStore/cdbl/build/app/kotlinToolingMetadata:/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/javac/release/classes:/Volumes/ssd/git/cdbl/cdblapp/build/app/tmp/kotlin-classes/release:/Volumes/ssd/git/cdbl/cdblapp/build/app/kotlinToolingMetadata:/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.CDBLApp.VAS"
-      generatedSourceFolders="/Users/mac/Desktop/AppStore/cdbl/build/app/generated/ap_generated_sources/release/out:/Users/mac/Desktop/AppStore/cdbl/build/app/generated/aidl_source_output_dir/release/out:/Users/mac/Desktop/AppStore/cdbl/build/app/generated/source/buildConfig/release:/Users/mac/Desktop/AppStore/cdbl/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/Users/mac/Desktop/AppStore/cdbl/build/app/generated/res/rs/release:/Users/mac/Desktop/AppStore/cdbl/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/ap_generated_sources/release/out:/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/aidl_source_output_dir/release/out:/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/source/buildConfig/release:/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/res/rs/release:/Volumes/ssd/git/cdbl/cdblapp/build/app/generated/res/resValues/release">
   </mainArtifact>
   <testArtifact>
   </testArtifact>

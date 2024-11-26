@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/AppStore/cdbl/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "/Volumes/ssd/git/cdbl/cdblapp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,447",
+                        "startOffsets": "55,130,217,397",
                         "endLines": "2,3,7,11",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,442,684"
+                        "endOffsets": "125,212,392,584"
                     }
                 }
             ]

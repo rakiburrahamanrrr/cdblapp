@@ -27,14 +27,13 @@ class _About_UsState extends State<About_Us> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/aboutapp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/aboutapp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

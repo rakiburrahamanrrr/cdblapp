@@ -28,14 +28,13 @@ class _HighlightsState extends State<Highlights> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/ataglanceapp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/ataglanceapp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

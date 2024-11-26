@@ -1,14 +1,14 @@
 <lint-module
     format="1"
-    dir="/Users/mac/Desktop/AppStore/cdbl/android/app"
+    dir="/Volumes/ssd/git/cdbl/cdblapp/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.0.0"
-    buildFolder="/Users/mac/Desktop/AppStore/cdbl/build/app"
-    bootClassPath="/Users/mac/Library/Android/sdk/platforms/android-32/android.jar:/Users/mac/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    buildFolder="/Volumes/ssd/git/cdbl/cdblapp/build/app"
+    bootClassPath="/Users/app/Library/Android/sdk/platforms/android-33/android.jar:/Users/app/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-32">
+    compileTarget="android-33">
   <lintOptions
       abortOnError="true"
       absolutePaths="true"

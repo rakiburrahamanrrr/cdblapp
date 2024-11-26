@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 
-class BalanceDetailsScreen extends HookWidget {
+class BalanceDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {

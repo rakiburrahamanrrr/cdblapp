@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../api.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 
-class UserProfileScreen extends HookWidget {
-  Future<Map> UserProfile;
 
-  @override
+ class UserProfileScreen extends StatelessWidget {
+   const UserProfileScreen();
+ 
+    @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     final Map<String, dynamic> boID = ModalRoute.of(context).settings.arguments;
@@ -246,4 +245,5 @@ class UserProfileScreen extends HookWidget {
       ),
     );
   }
-}
+
+ }

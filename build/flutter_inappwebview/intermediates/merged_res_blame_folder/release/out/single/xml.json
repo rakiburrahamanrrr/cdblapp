@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/xml/image_share_filepaths.xml",
-        "source": "/Users/mac/.gradle/caches/transforms-3/f067b3a861cb9c9e462e3abe8f457b99/transformed/browser-1.4.0/res/xml/image_share_filepaths.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/xml/provider_paths.xml",
+        "source": "/Users/app/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.8.0/android/src/main/res/xml/provider_paths.xml"
     },
     {
-        "merged": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/xml/provider_paths.xml",
-        "source": "/Users/mac/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.4.3+7/android/src/main/res/xml/provider_paths.xml"
+        "merged": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/xml/image_share_filepaths.xml",
+        "source": "/Users/app/.gradle/caches/transforms-3/9f384b9002c88ce14625847289cc87c0/transformed/browser-1.4.0/res/xml/image_share_filepaths.xml"
     }
 ]

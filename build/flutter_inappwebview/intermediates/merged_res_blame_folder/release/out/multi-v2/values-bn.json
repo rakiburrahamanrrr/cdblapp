@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml",
+            "outputFile": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/merged_res/release/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/5c4375e5fd52d118c5952fb9a370f22c/transformed/core-1.7.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/ad797fd26c06492ed0cfebc7fab0c97c/transformed/core-1.8.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/f067b3a861cb9c9e462e3abe8f457b99/transformed/browser-1.4.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/9f384b9002c88ce14625847289cc87c0/transformed/browser-1.4.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,10 +57,10 @@
             ]
         },
         {
-            "outputFile": "/Users/mac/Desktop/AppStore/cdbl/build/flutter_inappwebview/intermediates/merged_res/release/values-bn/values-bn.xml",
+            "outputFile": "/Volumes/ssd/git/cdbl/cdblapp/build/flutter_inappwebview/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/5c4375e5fd52d118c5952fb9a370f22c/transformed/core-1.7.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/ad797fd26c06492ed0cfebc7fab0c97c/transformed/core-1.8.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/f067b3a861cb9c9e462e3abe8f457b99/transformed/browser-1.4.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/9f384b9002c88ce14625847289cc87c0/transformed/browser-1.4.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/d06364735f62dc1ed004671f32dd2026/transformed/appcompat-1.4.1/res/values-bn/values-bn.xml",
+                    "source": "/Users/app/.gradle/caches/transforms-3/ccf8a82780cef5fcf7b1d88bbe638fd3/transformed/appcompat-1.5.1/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

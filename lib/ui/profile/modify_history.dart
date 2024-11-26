@@ -1,12 +1,11 @@
 import 'package:cdbl/models/bo_modify.dart';
 import 'package:cdbl/models/statements_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import '../../api.dart';
 import '../../loading_animation.dart';
 
 
-class ModifyHistoryPage extends HookWidget {
+class ModifyHistoryPage  extends StatelessWidget {
   List<BoModify> boModify;
 
   @override

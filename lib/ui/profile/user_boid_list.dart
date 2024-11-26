@@ -1,20 +1,19 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../api.dart';
 import '../../loading_animation.dart';
 
-class BOIDsPage extends HookWidget {
+class BOIDsPage extends StatelessWidget {
+   BOIDsPage();
   Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
   Future<List<dynamic>> BoidList;
 
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    final Map<String, dynamic> boData =
-        ModalRoute.of(context).settings.arguments;
+    final Map<String, dynamic> boData = ModalRoute.of(context).settings.arguments;
     String dataa = boData['userdata'];
 
     getData() async {
@@ -38,13 +37,11 @@ class BOIDsPage extends HookWidget {
                 child: Container(
                   child: FloatingActionButton.extended(
                     onPressed: () {
-                      Navigator.of(context).pushNamed("/add/boid",
-                          arguments: {"userdata": dataa});
+                      Navigator.of(context).pushNamed("/add/boid", arguments: {"userdata": dataa});
                     },
                     label: Text(
                       'ADD BOID',
-                      style: TextStyle(
-                          color: Colors.black, fontWeight: FontWeight.bold),
+                      style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
                     ),
                     icon: FaIcon(
                       FontAwesomeIcons.userPlus,
@@ -71,9 +68,7 @@ class BOIDsPage extends HookWidget {
                 new DrawerHeader(
                   decoration: BoxDecoration(
                     color: Colors.transparent,
-                    image: DecorationImage(
-                        fit: BoxFit.contain,
-                        image: new AssetImage('assets/images/cdbl.png')),
+                    image: DecorationImage(fit: BoxFit.contain, image: new AssetImage('assets/images/cdbl.png')),
                   ),
                 ),
                 ListTile(
@@ -83,8 +78,7 @@ class BOIDsPage extends HookWidget {
                     style: TextStyle(fontSize: 18),
                   ),
                   onTap: () {
-                    Navigator.of(context).pushNamed("/dashboard",
-                        arguments: {"userdata": dataa});
+                    Navigator.of(context).pushNamed("/dashboard", arguments: {"userdata": dataa});
                   },
                 ),
                 ListTile(
@@ -94,8 +88,7 @@ class BOIDsPage extends HookWidget {
                     style: TextStyle(fontSize: 18),
                   ),
                   onTap: () {
-                    Navigator.of(context).pushNamed("/boid/list",
-                        arguments: {"userdata": dataa});
+                    Navigator.of(context).pushNamed("/boid/list", arguments: {"userdata": dataa});
                   },
                 ),
                 Divider(
@@ -108,8 +101,7 @@ class BOIDsPage extends HookWidget {
                     style: TextStyle(fontSize: 18),
                   ),
                   onTap: () {
-                    Navigator.of(context).pushNamed("/boid/holdings",
-                        arguments: {"userdata": dataa});
+                    Navigator.of(context).pushNamed("/boid/holdings", arguments: {"userdata": dataa});
                   },
                 ),
                 ListTile(
@@ -119,8 +111,7 @@ class BOIDsPage extends HookWidget {
                     style: TextStyle(fontSize: 18),
                   ),
                   onTap: () {
-                    Navigator.of(context).pushNamed("/boid/statement",
-                        arguments: {"userdata": dataa});
+                    Navigator.of(context).pushNamed("/boid/statement", arguments: {"userdata": dataa});
                   },
                 ),
                 Divider(
@@ -195,8 +186,7 @@ class BOIDsPage extends HookWidget {
                     final SharedPreferences prefs = await _prefs;
                     prefs.setBool("isLoggedIn", false);
 
-                    Navigator.pushNamedAndRemoveUntil(
-                        context, '/', (Route<dynamic> route) => false);
+                    Navigator.pushNamedAndRemoveUntil(context, '/', (Route<dynamic> route) => false);
                   },
                 ),
               ],
@@ -212,10 +202,7 @@ class BOIDsPage extends HookWidget {
                 List<dynamic> boidList = snapshot.data;
                 if (boidList.length == 0) {
                   return Container(
-                    child: SafeArea(
-                        child: Center(
-                            child: Text(
-                                "Your profile is not updated yet at CDBL"))),
+                    child: SafeArea(child: Center(child: Text("Your profile is not updated yet at CDBL"))),
                   );
                 } else {
                   return Container(
@@ -227,75 +214,53 @@ class BOIDsPage extends HookWidget {
                               child: Container(
                                 child: ListView.builder(
                                     itemCount: boidList.length,
-                                    itemBuilder:
-                                        (BuildContext context, int index) {
+                                    itemBuilder: (BuildContext context, int index) {
                                       return Container(
                                         padding: EdgeInsets.all(5),
                                         height: 80,
                                         child: GestureDetector(
                                           onTap: () {
                                             var boID = boidList[index].boid;
-                                            Navigator.of(context).pushNamed(
-                                                "/user/profile",
-                                                arguments: {"boID": boID});
+                                            Navigator.of(context).pushNamed("/user/profile", arguments: {"boID": boID});
                                           },
                                           child: Card(
                                             child: Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceEvenly,
+                                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                               children: [
                                                 SizedBox(
                                                   width: 15,
                                                 ),
                                                 Expanded(
                                                   child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .start,
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Container(
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          gradient:
-                                                              LinearGradient(
-                                                            colors: [
-                                                              Colors.white54,
-                                                              Colors.white70
-                                                            ],
+                                                        decoration: BoxDecoration(
+                                                          gradient: LinearGradient(
+                                                            colors: [Colors.white54, Colors.white70],
                                                           ),
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(
-                                                                      20.0),
+                                                          borderRadius: BorderRadius.circular(20.0),
                                                         ),
                                                         child: Column(
-                                                          crossAxisAlignment:
-                                                              CrossAxisAlignment
-                                                                  .start,
+                                                          crossAxisAlignment: CrossAxisAlignment.start,
                                                           children: [
                                                             SizedBox(
                                                               height: 5,
                                                             ),
                                                             Text(
-                                                              boidList[index]
-                                                                  .boid,
+                                                              boidList[index].boid,
                                                               style: TextStyle(
-                                                                  color: Colors
-                                                                      .black,
+                                                                  color: Colors.black,
                                                                   fontSize: 18,
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .bold),
+                                                                  fontWeight: FontWeight.bold),
                                                             ),
                                                             SizedBox(
                                                               height: 5,
                                                             ),
                                                             Text(
-                                                              boidList[index]
-                                                                  .name,
+                                                              boidList[index].name,
                                                               style: TextStyle(
-                                                                color: Colors
-                                                                    .black,
+                                                                color: Colors.black,
                                                                 fontSize: 15,
                                                               ),
                                                             ),
@@ -311,8 +276,7 @@ class BOIDsPage extends HookWidget {
                                                 Container(
                                                   child: IconButton(
                                                     icon: FaIcon(
-                                                      FontAwesomeIcons
-                                                          .anglesRight,
+                                                      FontAwesomeIcons.anglesRight,
                                                       color: Colors.lightGreen,
                                                     ),
                                                   ),

@@ -27,14 +27,14 @@ class _SmsAlertState extends State<SmsAlert> {
         leading: BackButton(color: Colors.black),
       ),
       body: Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://www.cdbl.com.bd/smsapp.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+        
+         WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://www.cdbl.com.bd/smsapp.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

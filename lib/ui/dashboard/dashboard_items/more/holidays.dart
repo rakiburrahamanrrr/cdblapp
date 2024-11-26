@@ -26,15 +26,14 @@ class _HolidaysState extends State<Holidays> {
         ),
         leading: BackButton(color: Colors.black),
       ),
-      body:  Stack(children: [
-        WebView(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://cdbl.com.bd/hday.php',
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
+      body: Stack(children: [
+        WebViewWidget(
+          controller: WebViewController()
+            ..setJavaScriptMode(JavaScriptMode.unrestricted)
+            ..setBackgroundColor(const Color(0x00000000))
+            ..loadRequest(
+              Uri.parse('https://cdbl.com.bd/hday.php'),
+            ),
         ),
         Visibility(
           visible: isLoading,

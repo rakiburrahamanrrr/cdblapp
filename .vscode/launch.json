@@ -5,21 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "cdblapp",
-            "cwd": "cdblapp",
+            "name": "debug",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "cdblapp (profile mode)",
-            "cwd": "cdblapp",
+            "name": "vashoz (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "cdblapp (release mode)",
-            "cwd": "cdblapp",
+            "name": "vashoz (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
